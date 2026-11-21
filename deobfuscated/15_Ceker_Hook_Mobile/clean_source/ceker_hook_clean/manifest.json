@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Ceker",
+  "version": "4.0.0",
+  "description": "HOOK MOBILE SIÊU TO BY CEKER",
+  "permissions": ["storage"],
+  "host_permissions": ["https://discord.com/*", "https://discord.com/api/webhooks/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/*"],
+      "js": ["inject.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://discord.com/*"],
+      "js": ["content.js"],
+      "css": ["sidebar.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["sidebar.css", "image/imagemenu.png", "image/menugif.gif"],
+      "matches": ["https://discord.com/*"]
+    }
+  ]
+}
