@@ -67,7 +67,8 @@ Every tool is strictly isolated in its own folder containing:
 | **40** | `40_Deobfuscator_29a_Infector` | 29a Infector / Virus Stripper Engine | Security Deobfuscation Tool | ✅ Fully Operational |
 | **41** | `41_Extracted_VBA_Runner` | Malicious VBA Macro Payload Runner | Office Macro Dropper | ✅ Analyzed & Defanged |
 | **42** | `42_VideoStar_UnlockPro` | VideoStar iOS Pro Tweak | Objective-C Runtime Hook | ✅ Reconstructed Tweak |
-| **43** | `43_KTN_Synx_Premium_VMC4` | Benchmark / Test Script (`fetch_obf.py`) | KTN SYNX-PREMIUM v3.0 (Tier-D VMP / VMC4 Native) | ✅ 100% Deobfuscated & Clean |
+| **43** | `43_KTN_Synx_Premium_VMC4` | Discord Member Fetcher / Scraper (`fetch.py`) | KTN SYNX-PREMIUM v3.0 (Tier-D VMP / VMC4 Native) | ✅ 100% Deobfuscated & Clean |
+| **44** | `44_Discord_Token_Spammer_NguyenHoangThanhDuy` | Discord Token Spammer & Stealer (`obf-tk.py`) | Universer v3.0 (Python 3.11 Bytecode CFG Junk) | 🚨 Deobfuscated & Neutralized |
 
 ---
 
